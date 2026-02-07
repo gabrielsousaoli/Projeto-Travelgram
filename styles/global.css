@@ -32,3 +32,23 @@ body{
     color: var(--text-color-secondary);
     background-color: var(--bg-color);
 }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* A pseudo class :hover ele faz com que o elemento fique dinamico, nesse caso vai acontecer de quando passamos o mouse em cima do menu onde esta escrito "Explorar" e "Minhas viagens", o elemento vai mudar de cor*/
+a:hover{
+    color: var(--brand-color);
+    text-decoration: underline;
+}
+
+.container{
+    padding-inline: 32px;
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+.bg-surface-color{
+    background-color: var(--surface-color);
+}
