@@ -1,36 +1,34 @@
-# 📐 Projeto CSS Grid: Desktop to Mobile 📱
+# ✈️ Travelgram: Galeria de Viagens Responsiva
 
-Este projeto foi desenvolvido com o objetivo de aprofundar meus conhecimentos em **CSS Grid Layout**. Inicialmente focado em uma estrutura complexa para desktop, retornei ao código para implementar a **responsividade**, garantindo uma experiência fluida em dispositivos móveis.
+O **Travelgram** é uma página de destino focada no compartilhamento de fotos de viagens. Este projeto foi desenvolvido para consolidar meus conhecimentos em **CSS Flexbox**, explorando o alinhamento de elementos e a distribuição de conteúdo de forma dinâmica. Recentemente, implementei a **responsividade** para garantir que a experiência de visualização seja perfeita também em dispositivos móveis.
 
 ---
 
 ## 🚀 Sobre o Projeto
 
-O desafio principal foi construir uma malha (grid) que se adaptasse perfeitamente a diferentes resoluções. Trabalhei conceitos fundamentais de posicionamento e alinhamento, focando em código limpo e organizado.
+O objetivo principal foi criar uma grade de fotos e informações que se ajustasse organicamente ao tamanho da tela. No Travelgram, os usuários podem visualizar destinos de forma organizada e atraente.
 
 ### 🛠️ Tecnologias Utilizadas
-* **HTML5**: Estruturação semântica do conteúdo.
-* **CSS3**: Estilização visual.
-* **CSS Grid**: Ferramenta principal para a construção do layout.
-* **Media Queries**: Utilizadas para a adaptação mobile-friendly.
+* **HTML5**: Estrutura semântica para acessibilidade e SEO.
+* **CSS3**: Estilização visual e efeitos.
+* **Flexbox**: Sistema principal para o layout da galeria e alinhamento do cabeçalho/perfil.
+* **Media Queries**: Adaptação do layout para visualização mobile.
 
 ---
 
-## 🧠 Aprendizados Técnicos
+## 🧠 Aprendizados e Prática com Flexbox
 
-Durante o desenvolvimento, foquei em dominar:
-1. **Grid Template Areas**: Para uma organização visual intuitiva das seções.
-2. **Unidades Flexíveis (fr)**: Para colunas que se ajustam ao tamanho da tela.
-3. **Responsividade**: Implementação de breakpoints para reorganizar o layout de 3 colunas (Desktop) para 1 coluna (Mobile).
-4. **Gap & Padding**: Controle preciso do espaçamento interno e entre elementos.
-
-
+Durante o desenvolvimento do Travelgram, apliquei conceitos essenciais:
+1. **Flex-direction**: Utilizado para alternar o fluxo da página entre linhas e colunas.
+2. **Justify-content & Align-items**: Para centralizar e distribuir as fotos da viagem e os textos de descrição.
+3. **Flex-wrap**: Fundamental para permitir que as fotos da galeria "quebrem" para a próxima linha conforme o espaço diminui.
+4. **Gap**: Controle moderno de espaçamento entre os cards de fotos sem a necessidade de margens manuais.
 
 ---
 
-## 📱 Evolução para Mobile
+## 📱 Versão Mobile
 
-A nova versão do projeto foca na usabilidade em telas menores. Utilizei o conceito de **Media Queries** para que os elementos do grid se empilhem verticalmente, mantendo a hierarquia da informação e a facilidade de leitura.
+A atualização para mobile focou na usabilidade em telas pequenas. O layout, que antes exibia várias fotos lado a lado, agora se adapta para uma coluna única ou dupla, dependendo do dispositivo, mantendo a proporção das imagens e a legibilidade do texto.
 
 ---
 
