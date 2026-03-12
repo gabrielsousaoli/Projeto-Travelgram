@@ -24,3 +24,17 @@ nav ul li:last-child img{
     height: 40px;
     
 }
+
+@media (width <= 26.875em){
+    
+    nav ul{
+    display: flex;
+    gap: .5rem;
+    }
+
+    .container{
+    padding-inline: 1rem;
+    max-width: 26.875rem;
+    margin-inline: auto;
+}
+}
